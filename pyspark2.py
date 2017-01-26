@@ -1,4 +1,4 @@
-#Load data from HDFS to Spark and storing back to HDFS - Hive Context
+#Using hive context in spark using pyspark
 
 from pyspark.sql import HiveContext
 sqlContext = HiveContext(sc)
